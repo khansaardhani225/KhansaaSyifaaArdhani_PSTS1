@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSTS</title>
+     <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+     <center>
+    <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">
+     <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
+     <span class="relative text-white dark:text-gray-950">Student Creativity Festival</span>
+     </span>
+    </center>
+</blockquote>
+     <center><p>Showcase Your Creativity, Skills and Innovate Ideas</p></center>
+        <form>
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" maxlength="50" required><br>
+
+            <label for="lab">Class</label>
+            <select id="lab" name="lab">
+                <option>X</option>
+                <option>XI</option>
+                <option>XII</option>
+            </select><br>
+
+             <label>Gender</label>
+            <div class="checkbox-group">
+                <label class="checkbox-label"><input type="checkbox" name="status" value="student">Male</label>
+                <label class="checkbox-label"><input type="checkbox" name="status" value="teacher">Female</label>
+            </div>
+
+             <label for="lab">Competition Category</label>
+            <select id="lab" name="lab">
+                <option>Web Development</option>
+                <option>IoT Project</option>
+                <option>Graphic Desain</option>
+                <option>Public Speaking</option>
+                <option>Photoghrapy</option>
+            </select><br>
+
+             <label>Participation Type</label>
+            <div class="checkbox-group">
+                <label class="checkbox-label"><input type="checkbox" name="status" value="student">Individual</label>
+                <label class="checkbox-label"><input type="checkbox" name="status" value="teacher">Team</label>
+            </div>
+
+             <label for="name">Team Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Team Name" maxlength="50" required><br>
+
+             <label for="name">Contact Number</label>
+            <input type="telephone" id="name" name="name" placeholder="08********" maxlength="50" required><br>
+
+            <label>Project Description</label>
+        <textarea rows="5 cols=10000" placeholder="Describe Your Project or Competition Entry..."></textarea><br>
+        <button type="submit">Register Now!</button>
+         </div>
+        </form>
+</body>
+</html>
